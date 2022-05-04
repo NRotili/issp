@@ -1,531 +1,477 @@
 <x-app-layout>
 
-    <div class="hero-slide owl-carousel site-blocks-cover">
-        <div class="intro-section" style="background-image: url('images/hero_1.jpg');">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-                        <h1>Inscripciones Abiertas</h1>
-                        <button type="button" class="btn btn-outline-light">Más información</button>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="{{ asset('images/carousel-1.jpg') }}" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning Platform
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
+                                    eirmod elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="intro-section" style="background-image: url('images/hero_1.jpg');">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-                        <h1>Mesas de exámenes Febrero 2022</h1>
-                        <button type="button" class="btn btn-outline-light">Más información</button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div></div>
-
-    <div class="site-section">
-        <div class="container">
-            <div class="row mb-5 justify-content-center text-center">
-                <div class="col-lg-4 mb-5">
-                    <h2 class="section-title-underline mb-5">
-                        <span>Oferta Educativa</span>
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6  mt-4 mb-4 mb-lg-0">
-
-                    <div class="feature-1 border">
-                        <div class="icon-wrapper bg-sistemas">
-                            <span class="fa-solid fa-laptop-code text-white"></span>
-                        </div>
-                        <div class="feature-1-content">
-                            <h2>SISTEMAS</h2>
-                            <p>Conocimientos científicos y técnicos que hacen posible el tratamiento automático por medio de computadoras.</p>
-                            <p><a href="#" class="btn btn-primary px-4 rounded-0">Más info</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-4 col-md-6 mb-4 mb-lg-0">
-                    <div class="feature-1 border">
-                        <div class="icon-wrapper bg-robotica">
-                            <span class="fa-solid fa-robot text-white"></span>
-                        </div>
-                        <div class="feature-1-content">
-                            <h2>ROBÓTICA</h2>
-                            <p>Aborda temas de electrónica, hidráulica, neumática e informática para alcanzar un perfil sumamente profesional.</p>
-                            <p><a href="#" class="btn btn-primary px-4 rounded-0">Más info</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 mt-4 mb-lg-0">
-                    <div class="feature-1 border">
-                        <div class="icon-wrapper bg-comercializacion">
-                            <span class="fa-solid fa-chart-area text-white"></span>
-
-                        </div>
-                        <div class="feature-1-content">
-                            <h2>COMERCIALIZACIÓN</h2>
-                            <p>Consiste en satisfacer las necesidades y deseos de los clientes para alcanzar los objetivos y superar sus expectativas.</p>
-                            <p><a href="#" class="btn btn-primary px-4 rounded-0">Más info</a></p>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="{{ asset('images/carousel-2.jpg') }}" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown">Get Educated Online From Your Home
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
+                                    eirmod elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Carousel End -->
 
 
-    {{-- <div class="site-section">
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-
-
-            <div class="row mb-5 justify-content-center text-center">
-                <div class="col-lg-6 mb-5">
-                    <h2 class="section-title-underline mb-3">
-                        <span>Popular Courses</span>
-                    </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, id?</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="owl-slide-3 owl-carousel">
-                        <div class="course-1-item">
-                            <figure class="thumnail">
-                                <a href="course-single.html"><img src="images/course_1.jpg" alt="Image"
-                                        class="img-fluid"></a>
-                                <div class="price">$99.00</div>
-                                <div class="category">
-                                    <h3>Mobile Application</h3>
-                                </div>
-                            </figure>
-                            <div class="course-1-content pb-4">
-                                <h2>How To Create Mobile Apps Using Ionic</h2>
-                                <div class="rating text-center mb-3">
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                </div>
-                                <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Similique accusantium ipsam.</p>
-                                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This
-                                        Course</a></p>
-                            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <h5 class="mb-3">Skilled Instructors</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
-
-                        <div class="course-1-item">
-                            <figure class="thumnail">
-                                <a href="course-single.html"><img src="images/course_2.jpg" alt="Image"
-                                        class="img-fluid"></a>
-                                <div class="price">$99.00</div>
-                                <div class="category">
-                                    <h3>Web Design</h3>
-                                </div>
-                            </figure>
-                            <div class="course-1-content pb-4">
-                                <h2>How To Create Mobile Apps Using Ionic</h2>
-                                <div class="rating text-center mb-3">
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                </div>
-                                <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Similique accusantium ipsam.</p>
-                                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This
-                                        Course</a></p>
-                            </div>
-                        </div>
-
-                        <div class="course-1-item">
-                            <figure class="thumnail">
-                                <a href="course-single.html"><img src="images/course_3.jpg" alt="Image"
-                                        class="img-fluid"></a>
-                                <div class="price">$99.00</div>
-                                <div class="category">
-                                    <h3>Arithmetic</h3>
-                                </div>
-                            </figure>
-                            <div class="course-1-content pb-4">
-                                <h2>How To Create Mobile Apps Using Ionic</h2>
-                                <div class="rating text-center mb-3">
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                </div>
-                                <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Similique accusantium ipsam.</p>
-                                <p><a href="courses-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This
-                                        Course</a></p>
-                            </div>
-                        </div>
-
-                        <div class="course-1-item">
-                            <figure class="thumnail">
-                                <a href="course-single.html"><img src="images/course_4.jpg" alt="Image"
-                                        class="img-fluid"></a>
-                                <div class="price">$99.00</div>
-                                <div class="category">
-                                    <h3>Mobile Application</h3>
-                                </div>
-                            </figure>
-                            <div class="course-1-content pb-4">
-                                <h2>How To Create Mobile Apps Using Ionic</h2>
-                                <div class="rating text-center mb-3">
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                </div>
-                                <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Similique accusantium ipsam.</p>
-                                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This
-                                        Course</a></p>
-                            </div>
-                        </div>
-
-                        <div class="course-1-item">
-                            <figure class="thumnail">
-                                <a href="course-single.html"><img src="images/course_5.jpg" alt="Image"
-                                        class="img-fluid"></a>
-                                <div class="price">$99.00</div>
-                                <div class="category">
-                                    <h3>Web Design</h3>
-                                </div>
-                            </figure>
-                            <div class="course-1-content pb-4">
-                                <h2>How To Create Mobile Apps Using Ionic</h2>
-                                <div class="rating text-center mb-3">
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                </div>
-                                <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Similique accusantium ipsam.</p>
-                                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This
-                                        Course</a></p>
-                            </div>
-                        </div>
-
-                        <div class="course-1-item">
-                            <figure class="thumnail">
-                                <a href="course-single.html"><img src="images/course_6.jpg" alt="Image"
-                                        class="img-fluid"></a>
-                                <div class="price">$99.00</div>
-                                <div class="category">
-                                    <h3>Mobile Application</h3>
-                                </div>
-                            </figure>
-                            <div class="course-1-content pb-4">
-                                <h2>How To Create Mobile Apps Using Ionic</h2>
-                                <div class="rating text-center mb-3">
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                    <span class="icon-star2 text-warning"></span>
-                                </div>
-                                <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Similique accusantium ipsam.</p>
-                                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This
-                                        Course</a></p>
-                            </div>
-                        </div>
-
                     </div>
-
                 </div>
-            </div>
-
-
-
-        </div>
-    </div> --}}
-
-
-
-
-    <div class="section-bg style-1" style="background-image: url('images/about_1.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h2 class="section-title-underline style-2">
-                        <span>Sobre la Institución</span>
-                    </h2>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5 class="mb-3">Online Classes</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-8">
-                    <p class="lead text-justify">El Instituto es una entidad educativa pública de gestión privada, incorporada a la enseñanza oficial de la Nación desde 1983 y de la Provincia de Santa Fe desde 1995, estando en consecuencia su actividad, planes de estudio y desarrollo de contenidos sujetos a control ministerial. </p>
-                    <p class="lead text-justify"> Esta condición le permite otorgar títulos de nivel terciario con validez nacional conforme a cada una de las normas establecidas. </p>
-                    <p><a href="{{route('sobre-nosotros')}}">Leer más</a></p>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                            <h5 class="mb-3">Home Projects</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                            <h5 class="mb-3">Book Library</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Service End -->
 
-    <!-- // 05 - Block -->
-    <div class="site-section">
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-4">
-                    <h2 class="section-title-underline">
-                        <span>Egresados</span>
-                    </h2>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{asset('images/about.jpg')}}" alt=""
+                            style="object-fit: cover;">
+                    </div>
                 </div>
-            </div>
-
-
-            <div class="owl-slide owl-carousel">
-
-                <div class="ftco-testimonial-1">
-                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                        <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
-                        <div>
-                            <h3>Allison Holmes</h3>
-                            <span>Téc. Robótica</span>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Welcome to eLEARNING</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                        dolore erat amet</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled
+                                Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International
+                                Certificate</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled
+                                Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International
+                                Certificate</p>
                         </div>
                     </div>
-                    <div>
-                        <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus
-                            mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam
-                            illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-                    </div>
-                </div>
-
-                <div class="ftco-testimonial-1">
-                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                        <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-                        <div>
-                            <h3>Allison Holmes</h3>
-                            <span>Téc. Sistemas</span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia
-                            nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum
-                            nisi amet necessitatibus. A, provident aperiam!</p>
-                    </div>
-                </div>
-
-                <div class="ftco-testimonial-1">
-                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                        <img src="images/person_4.jpg" alt="Image" class="img-fluid mr-3">
-                        <div>
-                            <h3>Allison Holmes</h3>
-                            <span>Téc. Comercialización</span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus
-                            mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam
-                            illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-                    </div>
-                </div>
-
-                <div class="ftco-testimonial-1">
-                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                        <img src="images/person_3.jpg" alt="Image" class="img-fluid mr-3">
-                        <div>
-                            <h3>Allison Holmes</h3>
-                            <span>Téc. Robótica</span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia
-                            nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum
-                            nisi amet necessitatibus. A, provident aperiam!</p>
-                    </div>
-                </div>
-
-                <div class="ftco-testimonial-1">
-                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                        <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-                        <div>
-                            <h3>Allison Holmes</h3>
-                            <span>Téc. Comercialización
-                            </span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus
-                            mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam
-                            illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-                    </div>
-                </div>
-
-                <div class="ftco-testimonial-1">
-                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                        <img src="images/person_4.jpg" alt="Image" class="img-fluid mr-3">
-                        <div>
-                            <h3>Allison Holmes</h3>
-                            <span>Téc. Robótica</span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia
-                            nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum
-                            nisi amet necessitatibus. A, provident aperiam!</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-
-    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                    <span class="icon flaticon-mortarboard"></span>
-                    <h3>Our Philosphy</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat
-                        quis delectus ea? Dolore, amet reprehenderit.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                    <span class="icon flaticon-school-material"></span>
-                    <h3>Academics Principle</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat
-                        quis delectus ea?
-                        Dolore, amet reprehenderit.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                    <span class="icon flaticon-library"></span>
-                    <h3>Key of Success</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat
-                        quis delectus ea?
-                        Dolore, amet reprehenderit.</p>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- About End -->
 
-    <div class="news-updates">
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
         <div class="container">
-
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="section-heading">
-                        <h2 class="text-black">Noticias</h2>
-                        <a href="#">Ver todas las noticias</a>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="post-entry-big">
-                                <a href="news-single.html" class="img-link"><img src="images/blog_large_1.jpg"
-                                        alt="Image" class="img-fluid"></a>
-                                <div class="post-content">
-                                    <div class="post-meta">
-                                        <a href="#">June 6, 2019</a>
-                                        <span class="mx-1">/</span>
-                                        <a href="#">Admission</a>, <a href="#">Updates</a>
-                                    </div>
-                                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning
-                                            Session</a></h3>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
+                <h1 class="mb-5">Courses Categories</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="{{asset('images/cat-1.jpg')}}" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Web Design</h5>
+                                    <small class="text-primary">49 Courses</small>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="post-entry-big horizontal d-flex mb-4">
-                                <a href="news-single.html" class="img-link mr-4"><img src="images/blog_1.jpg"
-                                        alt="Image" class="img-fluid"></a>
-                                <div class="post-content">
-                                    <div class="post-meta">
-                                        <a href="#">June 6, 2019</a>
-                                        <span class="mx-1">/</span>
-                                        <a href="#">Admission</a>, <a href="#">Updates</a>
-                                    </div>
-                                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning
-                                            Session</a></h3>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="{{asset('images/cat-2.jpg')}}" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Graphic Design</h5>
+                                    <small class="text-primary">49 Courses</small>
                                 </div>
-                            </div>
-
-                            <div class="post-entry-big horizontal d-flex mb-4">
-                                <a href="news-single.html" class="img-link mr-4"><img src="images/blog_2.jpg"
-                                        alt="Image" class="img-fluid"></a>
-                                <div class="post-content">
-                                    <div class="post-meta">
-                                        <a href="#">June 6, 2019</a>
-                                        <span class="mx-1">/</span>
-                                        <a href="#">Admission</a>, <a href="#">Updates</a>
-                                    </div>
-                                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning
-                                            Session</a></h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="{{asset('images/cat-3.jpg')}}" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Video Editing</h5>
+                                    <small class="text-primary">49 Courses</small>
                                 </div>
-                            </div>
-
-                            <div class="post-entry-big horizontal d-flex mb-4">
-                                <a href="news-single.html" class="img-link mr-4"><img src="images/blog_1.jpg"
-                                        alt="Image" class="img-fluid"></a>
-                                <div class="post-content">
-                                    <div class="post-meta">
-                                        <a href="#">June 6, 2019</a>
-                                        <span class="mx-1">/</span>
-                                        <a href="#">Admission</a>, <a href="#">Updates</a>
-                                    </div>
-                                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning
-                                            Session</a></h3>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="section-heading">
-                        <h2 class="text-black">Campus Videos</h2>
-                        <a href="#">View All Videos</a>
-                    </div>
-                    <a href="https://vimeo.com/45830194" class="video-1 mb-4" data-fancybox="" data-ratio="2">
-                        <span class="play">
-                            <span class="icon-play"></span>
-                        </span>
-                        <img src="images/course_5.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <a href="https://vimeo.com/45830194" class="video-1 mb-4" data-fancybox="" data-ratio="2">
-                        <span class="play">
-                            <span class="icon-play"></span>
-                        </span>
-                        <img src="images/course_5.jpg" alt="Image" class="img-fluid">
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{asset('images/cat-4.jpg')}}" alt=""
+                            style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                            style="margin:  1px;">
+                            <h5 class="m-0">Online Marketing</h5>
+                            <small class="text-primary">49 Courses</small>
+                        </div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Categories Start -->
 
-    {{-- <div class="site-section ftco-subscribe-1" style="background-image: url('images/bg_1.jpg')">
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <h2>Subscribe to us!</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/course-1.jpg')}}" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                    style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                    style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
+                                Students</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-5">
-                    <form action="" class="d-flex">
-                        <input type="text" class="rounded form-control mr-2 py-3" placeholder="Enter your email">
-                        <button class="btn btn-primary rounded py-3 px-4" type="submit">Send</button>
-                    </form>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/course-2.jpg')}}" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                    style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                    style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
+                                Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/course-3.jpg')}}" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                    style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                    style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
+                                Students</small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
+    <!-- Courses End -->
 
 
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-1.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-2.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-3.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-4.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-1.jpg')}}"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-2.jpg')}}"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-3.jpg')}}"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-4.jpg')}}"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
 
 
 </x-app-layout>

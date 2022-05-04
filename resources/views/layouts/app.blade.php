@@ -14,172 +14,136 @@
     <!-- Styles -->
 
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('fonts/flaticon/font/flaticon.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
-    <link href="{{ asset('css/jquery.mb.YTPlayer.min.css') }}" media="all" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="https://kit.fontawesome.com/492b538ce5.js" crossorigin="anonymous"></script>
 
+    <!-- Favicon -->
+    <link href="images/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     @livewireStyles
 
     <!-- Scripts -->
 </head>
 
-
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
+<body>
     <x-jet-banner />
 
-    <div class="site-wrap">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
-        <div class="site-mobile-menu site-navbar-target">
-            <div class="site-mobile-menu-header">
-                <div class="site-mobile-menu-close mt-3">
-                    <span class="icon-close2 js-menu-toggle"></span>
+
+
+    @livewire('navigation')
+
+
+
+
+    <main>
+        {{ $slot }}
+    </main>
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Link directos</h4>
+                        <a class="btn btn-link" href="">Home</a>
+                        <a class="btn btn-link" href="">Institución</a>
+                        <a class="btn btn-link" href="">Carreras</a>
+                        <a class="btn btn-link" href="">Contactanos</a>
+       
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Contacto</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>14 de Febrero 1262, V. Const.</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="call:3400474025">03400 - 474025</a></p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:secretaria@issp.edu.ar">secretaria@issp.edu.ar</a></p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://wa.me/+5493364237667"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/issp9112"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/issp9112/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Newsletter</h4>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="site-mobile-menu-body"></div>
-        </div>
-
-
-        <div class="py-2 bg-light">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-9 d-none d-lg-block">
-                        <a href="" class="small mr-3"><span class="icon-question-circle-o mr-2"></span> Tenés
-                            alguna consulta?</a>
-                        <a href="call:3400474025" class="small mr-3"><span class="icon-phone2 mr-2"></span> 03400 - 474025</a>
-                        <a href="https://wa.me/+5493364237667" class="small mr-3"><span class="icon-whatsapp mr-2"></span> 0336 - 154237667</a>
-                        <a href="mailto:secretaria@issp.edu.ar" class="small mr-3"><span class="icon-envelope-o mr-2"></span>
-                            secretaria@issp.edu.ar</a>
-                    </div>
-                    <div class="col-lg-3 text-right">
-                        <a href="login" class="small mr-3"><span class="icon-unlock-alt"></span> Ingresar</a>
-                        <a href="register" class="small btn btn-primary px-4 py-2 rounded-0"><span
-                                class="icon-users"></span> Registrarse</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
-            @livewire('navigation')
-
-        </header>
-
-
-        <main>
-            {{ $slot }}
-        </main>
-
-
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <p class="mb-4"><img src="{{asset('images/logo.png')}}" alt="Image" class="img-fluid"></p>
-                        <p>Desde 1981 brindando educación de calidad.</p>
-                        <p><a href="{{route('sobre-nosotros')}}">Leer más</a></p>
-                    </div>
-                    <div class="col-lg-2">
-                        <h3 class="footer-heading"><span>Campus</span></h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Alumnos</a></li>
-                            <li><a href="{{route('index')}}">Home</a></li>
-                            <li><a href="#">Noticias</a></li>
-                            <li><a href="#">Contacto</a></li>
-                            <li><a href="{{route('sobre-nosotros')}}">Institución</a></li>
-                            
-                        </ul>
-                    </div>
-                    <div class="col-lg-2">
-                        <h3 class="footer-heading"><span>Carreras</span></h3>
-                        <ul class="list-unstyled">
-                            <li><a href="{{route('pages.carreras.sistemas')}}">Sistemas</a></li>
-                            <li><a href="#">Comercialización</a></li>
-                            <li><a href="#">Robótica</a></li>
-                            
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 ">
-                        <h3 class="footer-heading"><span>Ubicación</span></h3>
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3337.41826150304!2d-60.34264618480631!3d-33.22934418083788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b76c4f3bc27c87%3A0x29c3bd700b77d3c5!2sInstituto%20San%20Pablo!5e0!3m2!1ses!2sar!4v1651617730924!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        <div class="copyright">
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>
-                                    document.write(new Date().getFullYear());
-                                </script> All rights reserved | This template is made with <i
-                                    class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                    target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="{{route('index')}}">{{ config('app.name', 'ISSP - 9112') }}</a>, All Right Reserved.
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Footer End -->
+    </footer>
 
-
-    </div>
-    <!-- .site-wrap -->
-
-
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                stroke="#51be78" />
-        </svg>
-    </div>
-
-
-    <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('js/jquery-migrate-3.0.1.min.js') }}"></script>
-    <script src="{{ asset('js/jquery-ui.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.countdown.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
-    <script src="{{ asset('js/aos.js') }}"></script>
-    <script src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.sticky.js') }}"></script>
-    <script src="{{ asset('js/jquery.mb.YTPlayer.min.js') }}"></script>
-
-
-
-    <script src="{{ asset('js/main.js') }}"></script>
-
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     @stack('modals')
 
     @livewireScripts
+
+      <!-- JavaScript Libraries -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="{{asset('lib/wow/wow.min.js')}}"></script>
+      <script src="{{asset('lib/easing/easing.min.js')}}"></script>
+      <script src="{{asset('lib/waypoints/waypoints.min.js')}}"></script>
+      <script src="{{asset('lib/owlcarousel/owl.carousel.min.js')}}"></script>
+  
+      <!-- Template Javascript -->
+      <script src="{{asset('js/main.js')}}"></script>
 
 </body>
 

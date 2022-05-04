@@ -1,46 +1,31 @@
-<div class="container">
-    <div class="d-flex align-items-center">
-        <div class="site-logo">
-            <a href="index.html" class="d-block">
-                <img src="{{asset('images/logo.jpg')}}" alt="Image" class="img-fluid">
-            </a>
-        </div>
-        <div class="mr-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                    <li class="{{ (request()->is('/')) ? 'active' : '' }}">
-                        <a href="{{route('index')}}" class="nav-link text-left ">Home</a>
-                    </li>
-                    <li class="{{ (request()->is('sobre-nosotros')) ? 'active' : '' }}">
-                        <a href="{{route('sobre-nosotros')}}" class="nav-link text-left ">Institución</a>
-                        
-                    </li>
-                  
-                    <li class="has-children {{ (request()->is('carreras/sistemas')) ? 'active' : ((request()->is('carreras/robotica')) ? 'active' : ((request()->is('carreras/comercializacion')) ? 'active':'') )}}">
-                        <a href="about.html" class="nav-link text-left">Carreras</a>
-                        <ul class="dropdown">
-                            <li><a href="teachers.html">Comercialización</a></li>
-                            <li><a href="about.html">Robótica</a></li>
-                            <li class="{{ (request()->is('carreras/sistemas')) ? 'active' : '' }}"><a href="{{route('pages.carreras.sistemas')}}">Sistemas</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="nav-link text-left">Contacto</a>
-                    </li>
-                </ul>
-                </ul>
-            </nav>
-
-        </div>
-        <div class="ml-auto">
-            <div class="social-wrap">
-                <a href="https://facebook.com/issp9112" target="_blank"><span class="icon-facebook"></span></a>
-                <a href="https://instagram.com/issp9112" target="_blank"><span class="icon-instagram"></span></a>
-
-                <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                        class="icon-menu h3"></span></a>
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>ISSP</h2>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="{{ route('index') }}" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
+            <a href="{{ route('sobre-nosotros') }}"
+                class="nav-item nav-link {{ request()->is('sobre-nosotros') ? 'active' : '' }}">Institución</a>
+            <div class="nav-item dropdown">
+                <a href="#"
+                    class="nav-link dropdown-toggle {{ request()->is('carreras/sistemas') ? 'active' : (request()->is('carreras/robotica') ? 'active' : (request()->is('carreras/comercializacion') ? 'active' : '')) }}"
+                    data-bs-toggle="dropdown">Carreras</a>
+                <div class="dropdown-menu fade-down m-0">
+                    <a href="team.html" class="dropdown-item">Comercialización</a>
+                    <a href="testimonial.html" class="dropdown-item">Robótica</a>
+                    <a href="{{ route('pages.carreras.sistemas') }}"
+                        class="dropdown-item {{ request()->is('carreras/sistemas') ? 'active' : '' }}">Sistemas</a>
+                </div>
             </div>
-        </div>
 
+            <a href="{{ route('contacto') }}"
+                class="nav-item nav-link {{ request()->is('contacto') ? 'active' : '' }}">Contacto</a>
+        </div>
+        <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">CAMPUS<i
+                class="fa fa-arrow-right ms-3"></i></a>
     </div>
-</div>
+</nav>

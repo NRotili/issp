@@ -23,6 +23,11 @@ Route::get('sobre-nosotros', [AboutController::class,'index'])->name('sobre-noso
 
 Route::get('carreras/sistemas', [SistemasController::class,'index'])->name('pages.carreras.sistemas');
 
+Route::get('contacto', function () {
+    return view('pages.contacto');
+})->name('contacto');
+
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

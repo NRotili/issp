@@ -1,94 +1,203 @@
 <x-app-layout>
-    <div class="site-section ftco-subscribe-1 site-blocks-cover mt-5 pb-4"
-        style="background-image: url('images/bg_1.jpg')">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-7">
-                    <h2 class="mb-0">Sistemas</h2>
-                    <p>Tecnicatura Superior en Análisis Funcional de Sistemas.</p>
+    
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Análisis Funcional de Sistemas</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="{{route('index')}}">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Carreras</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Sistemas</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Header End -->
 
 
-    <div class="custom-breadcrumns border-bottom">
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <a href="{{ route('index') }}">Home</a>
-            <span class="mx-3 icon-keyboard_arrow_right"></span>
-            <span class="current">Carreras</span>
-            <span class="mx-3 icon-keyboard_arrow_right"></span>
-            <span class="current">Sistemas</span>
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="http://www.issp.edu.ar/PlanAS.pdf" target="_blank"><div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <h5 class="mb-3">Plan de Estudios</h5>
+                            <p>Analista de Sistemas (Res. 445/81)</p>
+                        </div>
+                    </div></a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="http://www.issp.edu.ar/NormaAS.pdf" target="_blank">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5 class="mb-3">Normativa</h5>
+                            <p>Analista de Sistemas (Res. 445/81)</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="http://www.issp.edu.ar/dcas2016.pdf" target="_blank">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                            <h5 class="mb-3">Normativa y Diseño Curricular</h5>
+                            <p>Técnico Superior en Análisis Funcional</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                
+            </div>
         </div>
     </div>
+    <!-- Service End -->
 
-    <div class="site-section">
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 col-lg-12 text-center">
-                    <h2 class="text-center section-title-underline  mb-5">
-                        <span>Tecnicatura Superior en Análisis Funcional de Sistemas.</span>
-                    </h2>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{asset('images/about.jpg')}}" alt="" style="object-fit: cover;">
+                    </div>
                 </div>
-                <div class="col-lg-6 mb-lg-0 mb-4 align-self-center">
-
-                    <p class="text-justify"> La carrera de Analista de Sistemas de computación tiene una duración de 3
-                        años, con un título terciario con validez oficial y expedido por el Ministerio de Educación de
-                        la provincia de Santa Fe.
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Análisis Funcional de Sistemas</h6>
+                    <p class="mb-4">La carrera de Analista de Sistemas de computación tiene una duración de 3 años, con un título terciario con validez oficial y expedido por el Ministerio de Educación de la provincia de Santa Fe.
                     </p>
-                    <p class="text-justify">Tiene como finalidad formar al alumno para el buen desempeño en el diseño,
-                        instalación y mantenimiento de aplicaciones para la resolución de problemas y/o la optimización
-                        de procedimientos en cualquier tipo de organización. Durante el cursado de la carrera el alumno
-                        adquiere conocimientos de Administración, Programación, fundamentos de ingeniería de sistemas y
-                        de componentes físicos (hardware) de sistemas de computación.</p>
+                    <p class="mb-4">Tiene como finalidad formar al alumno para el buen desempeño en el diseño, instalación y mantenimiento de aplicaciones para la resolución de problemas y/o la optimización de procedimientos en cualquier tipo de organización. Durante el cursado de la carrera el alumno adquiere conocimientos de Administración, Programación, fundamentos de ingeniería de sistemas y de componentes físicos (hardware) de sistemas de computación.
+                    </p>
 
-                </div>
-                <div class="col-lg-6 ml-auto align-self-center">
-                    <img src="{{ asset('images/bg_1.jpg') }}" alt="fullstack" class="rounded img-fluid">
+                    <p class="mb-4">El vertiginoso desarrollo de las tecnologías de la comunicación y los sistemas de procesamiento de datos ha impactado en las más diversas actividades, ya sean comerciales, industriales o de servicios. Como aspecto a destacar en tal sentido entonces, buena parte del plantel docente se encuentra constituida por profesionales con actividad en empresas en las que se aplica este tipo de prácticas, y que vuelcan a los alumnos su experiencia en la actividad laboral.
+
+
+                    </p>
+                   
                 </div>
 
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                     <p class="mb-4">El Instituto está equipado con todas las herramientas necesarias para poder desarrollar clases prácticas, especiales y extraprogramáticas sobre aspectos que hacen al estado del arte de la informática.
+                    </p>
+                    
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Laboratorio con PCs</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Software actualizado</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Conectividad LAN</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Conectividad WiFi</p>
+                        </div>
+                       
+                    </div>
+                   
+               </div>
             </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-            <div class="row">
-                <div class="col-lg-6 mr-auto align-self-center ">
-                    <p class="text-justify">
-                        El vertiginoso desarrollo de las tecnologías de la comunicación y los sistemas de procesamiento
-                        de datos ha impactado en las más diversas actividades, ya sean comerciales, industriales o de
-                        servicios. Como aspecto a destacar en tal sentido entonces, buena parte del plantel docente se
-                        encuentra constituida por profesionales con actividad en empresas en las que se aplica este tipo
-                        de prácticas, y que vuelcan a los alumnos su experiencia en la actividad laboral.</p>
-                    <p class="text-justify">
-                        El Instituto está equipado con todas las herramientas necesarias para poder desarrollar clases
-                        prácticas, especiales y extraprogramáticas sobre aspectos que hacen al estado del arte de la
-                        informática.cuenta con un laboratorio para prácticas en equipos conectado a internet, como así
-                        también cuenta con disponibilidad de conectividad wi-fi. En este ámbito se desarrollan clases
-                        prácticas, clases especiales y cursos extraprogramáticos sobre aspectos que hacen al estado del
-                        arte en la informática.instalaciones para nuestros alumnos.</p>
-                    <ol class="ul-check primary list-unstyled">
-                        <li>Laboratorio con PCs</li>
-                        <li>Conectividad LAN</li>
-                        <li>Conectividad Wi-Fi</li>
-                        <li>Softwares actualizados</li>
 
-                    </ol>
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-1.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-6 col-sm-6">
-                    <h2 class="section-title-underline mb-5">
-                        <span>Plan de estudio y normativa</span>
-                    </h2>
-                    <ol class="ul-check primary list-unstyled">
-                        <li><a href="http://www.issp.edu.ar/PlanAS.pdf" target="_blank">Plan de Estudios de la carrera de Analista de
-                                Sistemas (Res. 445/81)</a></li>
-                        <li><a href="http://www.issp.edu.ar/NormaAS.pdf" target="_blank">Normativa del plan de la carrera de Analista de
-                                Sistemas (Res. 445/81)</a></li>
-                        <li><a href="http://www.issp.edu.ar/dcas2016.pdf" target="_blank">Normativa y Diseño Curricular de la carrera
-                                Técnico Superior en Análisis Funcional (Nuevo!)</a></li>
-
-                    </ol>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-2.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-3.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{{asset('images/team-4.jpg')}}" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Team End -->
 
     
 </x-app-layout>
