@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\Pages\AboutController;
+use App\Http\Controllers\Pages\Carreras\SistemasController;
+use App\Http\Controllers\Pages\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +17,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [IndexController::class,'index'])->name('index');
+Route::get('/', [HomeController::class,'index'])->name('index');
+
+Route::get('sobre-nosotros', [AboutController::class,'index'])->name('sobre-nosotros');
+
+Route::get('carreras/sistemas', [SistemasController::class,'index'])->name('pages.carreras.sistemas');
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
