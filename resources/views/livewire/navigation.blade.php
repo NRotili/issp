@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>ISSP</h2>
+        <h2 class="m-0 "><img src="{{asset('images/logoTrans.png')}}" width="20%" class="m-3"alt=""></i>ISSP Nº 9112</h2>
     </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -15,8 +15,8 @@
                     class="nav-link dropdown-toggle {{ request()->is('carreras/sistemas') ? 'active' : (request()->is('carreras/robotica') ? 'active' : (request()->is('carreras/comercializacion') ? 'active' : '')) }}"
                     data-bs-toggle="dropdown">Carreras</a>
                 <div class="dropdown-menu fade-down m-0">
-                    <a href="team.html" class="dropdown-item">Comercialización</a>
-                    <a href="testimonial.html" class="dropdown-item">Robótica</a>
+                    <a href="{{ route('pages.carreras.comercializacion')}}" class="dropdown-item {{ request()->is('carreras/comercializacion') ? 'active' : '' }}">Comercialización</a>
+                    <a href="{{ route('pages.carreras.robotica')}}" class="dropdown-item {{ request()->is('carreras/robotica') ? 'active' : '' }}">Robótica</a>
                     <a href="{{ route('pages.carreras.sistemas') }}"
                         class="dropdown-item {{ request()->is('carreras/sistemas') ? 'active' : '' }}">Sistemas</a>
                 </div>

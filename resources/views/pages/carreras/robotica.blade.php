@@ -5,12 +5,12 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Análisis Funcional de Sistemas</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Robótica</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="{{route('index')}}">Home</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#">Carreras</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Sistemas</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Robótica</li>
                         </ol>
                     </nav>
                 </div>
@@ -25,32 +25,32 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="http://www.issp.edu.ar/PlanAS.pdf" target="_blank"><div class="service-item text-center pt-3">
+                    <a href="http://issp.edu.ar/PlanTSR.pdf" target="_blank"><div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                             <h5 class="mb-3">Plan de Estudios</h5>
-                            <p>Analista de Sistemas (Res. 445/81)</p>
+                            <p>Técnico Superior en Robótica</p>
                         </div>
                     </div></a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <a href="http://www.issp.edu.ar/NormaAS.pdf" target="_blank">
+                    <a href="http://issp.edu.ar/NormaTSR.pdf" target="_blank">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                             <h5 class="mb-3">Normativa</h5>
-                            <p>Analista de Sistemas (Res. 445/81)</p>
+                            <p>Técnico Superior en Robótica</p>
                         </div>
                     </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <a href="http://www.issp.edu.ar/dcas2016.pdf" target="_blank">
+                    <a href="http://issp.edu.ar/Folleto_Robotica.JPG" target="_blank">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Normativa y Diseño Curricular</h5>
-                            <p>Técnico Superior en Análisis Funcional</p>
+                            <h5 class="mb-3">Tríptico</h5>
+                            <p>Publicidad</p>
                         </div>
                     </div>
                     </a>
@@ -72,40 +72,25 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">Análisis Funcional de Sistemas</h6>
-                    <p align="justify" class="mb-4">La carrera de Analista de Sistemas de computación tiene una duración de 3 años, con un título terciario con validez oficial y expedido por el Ministerio de Educación de la provincia de Santa Fe.
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Técnico Superior en Robótica</h6>
+                    <p align="justify" class="mb-4">La carrera de Técnico Superior en Robótica que allí se dicta tiene una duración de 3 años, con un título terciario con validez oficial y expedido por el Ministerio de Educación de la provincia de Santa Fe.
                     </p>
-                    <p align="justify" class="mb-4">Tiene como finalidad formar al alumno para el buen desempeño en el diseño, instalación y mantenimiento de aplicaciones para la resolución de problemas y/o la optimización de procedimientos en cualquier tipo de organización. Durante el cursado de la carrera el alumno adquiere conocimientos de Administración, Programación, fundamentos de ingeniería de sistemas y de componentes físicos (hardware) de sistemas de computación.
+                    <p align="justify" class="mb-4">Tiene como finalidad formar al alumno para el buen desempeño en actividades preferentemente industriales, conforme a la demanda existente en nuestra zona. Aquí se estudian y aplican conocimientos de electricidad, electrónica y mecánica que en forma combinada y conjuntamente con otras disciplinas abordadas permiten al alumno construir y/o controlar dispositivos automatizados capaces de realizar procesos.
                     </p>
 
-                    <p align="justify" class="mb-4">El vertiginoso desarrollo de las tecnologías de la comunicación y los sistemas de procesamiento de datos ha impactado en las más diversas actividades, ya sean comerciales, industriales o de servicios. Como aspecto a destacar en tal sentido entonces, buena parte del plantel docente se encuentra constituida por profesionales con actividad en empresas en las que se aplica este tipo de prácticas, y que vuelcan a los alumnos su experiencia en la actividad laboral.
-
-
+                    <p align="justify" class="mb-4">Esta situación que se presenta especialmente en los ámbitos industriales es la que tiene por objeto de estudio a la carrera de Técnico Superior en Robótica, que brindando herramientas teóricas y prácticas similares a las de uso en la industria capacita al alumno para un desempeño más jerarquizado en los ámbitos industriales. En tal sentido, buena parte del plantel docente se encuentra constituida por profesionales ingenieros con actividad en empresas en las que se aplica este tipo de prácticas, y que vuelcan a los alumnos su experiencia en la actividad laboral.
                     </p>
                    
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                     <p align="justify" class="mb-4">El Instituto está equipado con todas las herramientas necesarias para poder desarrollar clases prácticas, especiales y extraprogramáticas sobre aspectos que hacen al estado del arte de la informática.
+                     <p align="justify" class="mb-4">El Instituto cuenta desde el año 2010 con una instalación en laboratorio de una celda manufacturera de última generación controlado mediante un equipo computarizado, el cual cuenta con todas las características técnicas que presenta este tipo de equipos en las industrias. Este equipamiento incluye un sistema de control de mediciones y traslado de piezas, el cual es capaz de funcionar conjuntamente con el brazo robot ya instalado, y que integra una celda industrial que el Instituto amplía periódicamente hasta lograr su desarrollo completo.
                     </p>
                     
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Laboratorio con PCs</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Software actualizado</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Conectividad LAN</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Conectividad WiFi</p>
-                        </div>
-                       
-                    </div>
+                    <p align="justify" class="mb-4">Asimismo, existen 2 laboratorios más en el Instituto en los que se desarrollan las prácticas de electrónica y control de equipos del tipo PLC (controladores lógicos programables) como parte de las asignaturas que se desarrollan normalmente.
+                    </p>
                    
                </div>
             </div>
