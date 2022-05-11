@@ -57,29 +57,33 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    
                     <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <a href="{{route('contacto')}}">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                                <h5 class="mb-3">Carreras</h5>
+                                <p>Solicitar información</p>
+                            </div>
+                        </a>
                         </div>
-                    </div>
+
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <i class="fas fa-3x fa-file text-primary mb-4"></i>
+                            <h5 class="mb-3">Inscripciones</h5>
+                            <p>Iniciar carrera</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Home Projects</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <i class="fas fa-3x fa-list-check text-primary mb-4"></i>
+                            <h5 class="mb-3">Mesas de Exámenes</h5>
+                            <p>Inscripción al llamado</p>
                         </div>
                     </div>
                 </div>
@@ -87,8 +91,8 @@
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">Book Library</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <h5 class="mb-3">Biblioteca</h5>
+                            <p>Utilidades académicas</p>
                         </div>
                     </div>
                 </div>
@@ -104,8 +108,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{asset('images/about.jpg')}}" alt=""
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('images/about.jpg') }}"
+                            alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -162,7 +166,7 @@
                     <div class="row g-3">
                         <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                             <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{asset('images/cat-1.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{ asset('images/cat-1.jpg') }}" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                     style="margin: 1px;">
                                     <h5 class="m-0">Web Design</h5>
@@ -172,7 +176,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                             <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{asset('images/cat-2.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{ asset('images/cat-2.jpg') }}" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                     style="margin: 1px;">
                                     <h5 class="m-0">Graphic Design</h5>
@@ -182,7 +186,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                             <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{asset('images/cat-3.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{ asset('images/cat-3.jpg') }}" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                     style="margin: 1px;">
                                     <h5 class="m-0">Video Editing</h5>
@@ -194,8 +198,8 @@
                 </div>
                 <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                     <a class="position-relative d-block h-100 overflow-hidden" href="">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{asset('images/cat-4.jpg')}}" alt=""
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('images/cat-4.jpg') }}"
+                            alt="" style="object-fit: cover;">
                         <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                             style="margin:  1px;">
                             <h5 class="m-0">Online Marketing</h5>
@@ -220,7 +224,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{asset('images/course-1.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/course-1.jpg') }}" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
@@ -253,7 +257,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{asset('images/course-2.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/course-2.jpg') }}" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
@@ -286,7 +290,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{asset('images/course-3.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/course-3.jpg') }}" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
@@ -333,7 +337,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{asset('images/team-1.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/team-1.jpg') }}" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
@@ -354,7 +358,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{asset('images/team-2.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/team-2.jpg') }}" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
@@ -375,7 +379,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{asset('images/team-3.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/team-3.jpg') }}" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
@@ -396,7 +400,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{asset('images/team-4.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/team-4.jpg') }}" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
@@ -429,7 +433,7 @@
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-1.jpg')}}"
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('images/testimonial-1.jpg') }}"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
@@ -439,7 +443,7 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-2.jpg')}}"
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('images/testimonial-2.jpg') }}"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
@@ -449,7 +453,7 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-3.jpg')}}"
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('images/testimonial-3.jpg') }}"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
@@ -459,7 +463,7 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('images/testimonial-4.jpg')}}"
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('images/testimonial-4.jpg') }}"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>

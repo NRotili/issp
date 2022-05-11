@@ -31,6 +31,16 @@
                             <p class="mb-0">03400 - 474025</p>
                         </div>
                     </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
+                            <i class="fa fa-whatsapp text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="text-primary">WhatsApp</h5>
+                            <p class="mb-0">0336 - 154237667</p>
+                        </div>
+                    </div>
                     <div class="d-flex align-items-center">
                         <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
                             style="width: 50px; height: 50px;">
