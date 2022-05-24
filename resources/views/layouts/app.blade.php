@@ -76,10 +76,10 @@
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6">
                         <h4 class="text-white mb-3">Link directos</h4>
-                        <a class="btn btn-link" href="">Home</a>
-                        <a class="btn btn-link" href="">Institución</a>
+                        <a class="btn btn-link" href="{{route('index')}}">Home</a>
+                        <a class="btn btn-link" href="{{route('sobre-nosotros')}}">Institución</a>
                         <a class="btn btn-link" href="">Carreras</a>
-                        <a class="btn btn-link" href="">Contactanos</a>
+                        <a class="btn btn-link" href="{{route('contacto')}}">Contactanos</a>
        
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -94,14 +94,18 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <h4 class="text-white mb-3">Newsletter</h4>
+                        <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53391.32422471541!2d-60.36333356528205!3d-33.241409893364676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b76c4760812d55%3A0xbb412b3c67ec6e48!2sVilla%20Constituci%C3%B3n%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1651680657305!5m2!1ses!2sar"
+                        frameborder="0" style="min-height: 100px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                        {{-- <h4 class="text-white mb-3">Newsletter</h4>
                         <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
                                 placeholder="Your email">
                             <button type="button"
                                 class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -114,10 +118,10 @@
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
+                                <a href="{{route('index')}}">Home</a>
                                 <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="">Ayuda</a>
+                                <a href="">FAQs</a>
                             </div>
                         </div>
                     </div>
