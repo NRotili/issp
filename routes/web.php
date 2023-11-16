@@ -26,7 +26,7 @@ Route::get('sobre-nosotros', [AboutController::class,'index'])->name('sobre-noso
 // ------ Carreras ------
 Route::get('carreras/sistemas', [SistemasController::class,'index'])->name('pages.carreras.sistemas');
 Route::get('carreras/robotica', [RoboticaController::class,'index'])->name('pages.carreras.robotica');
-Route::get('carreras/comercializacion', [ComercializacionController::class,'index'])->name('pages.carreras.comercializacion');
+Route::get('carreras/gestion-industrial', [ComercializacionController::class,'index'])->name('pages.carreras.gestion-industrial');
 
 Route::get('contacto', function () {
     return view('pages.contacto');

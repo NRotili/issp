@@ -30,7 +30,7 @@
     </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="{{route('pages.carreras.robotica')}}" target="_blank"><div class="service-item text-center pt-3">
+                    <a href="{{route('pages.carreras.robotica')}}" ><div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                             <h5 class="mb-3">Téc. en Robótica</h5>
@@ -39,18 +39,18 @@
                     </div></a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <a href="{{route('pages.carreras.comercializacion')}}" target="_blank">
+                    <a href="{{route('pages.carreras.gestion-industrial')}}" >
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Téc. en Comercialización</h5>
+                            <h5 class="mb-3">Téc. en Gestión Industrial</h5>
                             <p></p>
                         </div>
                     </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <a href="{{route('pages.carreras.sistemas')}}" target="_blank">
+                    <a href="{{route('pages.carreras.sistemas')}}" >
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-home text-primary mb-4"></i>

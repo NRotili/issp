@@ -15,7 +15,7 @@
                     class="nav-link dropdown-toggle {{ request()->is('carreras/sistemas') ? 'active' : (request()->is('carreras/robotica') ? 'active' : (request()->is('carreras/comercializacion') ? 'active' : '')) }}"
                     data-bs-toggle="dropdown">Carreras</a>
                 <div class="dropdown-menu fade-down m-0">
-                    <a href="{{ route('pages.carreras.comercializacion')}}" class="dropdown-item {{ request()->is('carreras/comercializacion') ? 'active' : '' }}">Comercialización</a>
+                    <a href="{{ route('pages.carreras.gestion-industrial')}}" class="dropdown-item {{ request()->is('carreras/gestion-industrial') ? 'active' : '' }}">Gestión Industrial</a>
                     <a href="{{ route('pages.carreras.robotica')}}" class="dropdown-item {{ request()->is('carreras/robotica') ? 'active' : '' }}">Robótica</a>
                     <a href="{{ route('pages.carreras.sistemas') }}"
                         class="dropdown-item {{ request()->is('carreras/sistemas') ? 'active' : '' }}">Sistemas</a>

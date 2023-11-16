@@ -4,44 +4,59 @@
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="{{ asset('images/carousel-1.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('images/gestion-industrial.webp') }}" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Nueva oferta educativa
                                 </h5>
-                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning Platform
+                                <h1 class="display-3 text-white animated slideInDown">Tec. Sup. en Gestión Industrial
                                 </h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
-                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
-                                    eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                                <p class="fs-5 text-white mb-4 pb-2">Formación técnica con capacidad de desarrollo amplio y autónomo en el área de gestión industrial, cpaces de operar en la industria de la ciudad y la región.</p>
+                                <a href="{{route('pages.carreras.gestion-industrial')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Más información</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Inscripción</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="{{ asset('images/carousel-2.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('images/carrousel-robotica.webp') }}" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Inscripciones abiertas
                                 </h5>
-                                <h1 class="display-3 text-white animated slideInDown">Get Educated Online From Your Home
+                                <h1 class="display-3 text-white animated slideInDown">Tecnicatura Superior en Robótica
                                 </h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
-                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
-                                    eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                                <p class="fs-5 text-white mb-4 pb-2">Formar al alumno para el buen desempeño en actividades preferentemente industriales, conforme a la demanda existente en nuestra zona</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Más información
+                                    </a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Inscripción</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="{{ asset('images/carrousel-sistemas.webp') }}" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Inscripciones abiertas
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown">Tec. Sup. en Análisis Func. de Sistemas
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">formar al alumno para el buen desempeño en actividades preferentemente industriales, conforme a la demanda existente en nuestra zona</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Más información
+                                    </a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Inscripción</a>
                             </div>
                         </div>
                     </div>
@@ -115,10 +130,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">INSTITUCIón</h6>
                     <h1 class="mb-4">Tu futuro, cerca...</h1>
+                    <p class="mb-4">El ISSP forma técnicos superiores desde 1981, siendo un referente de la educación técnica en la localidad y su zona de influencia, recibiendo anualmente estudiantes no solamente de la ciudad sino también de localidades aledañas.</p>
+
                     <p class="mb-4">Somos una institución educativa con la finalidad de proveer a los alumnos egresados de las diferentes escuelas de la ciudad y de la región de una alternativa local para ampliar sus capacidades y aptitudes en cuanto a desempeño en el mercado laboral.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
-                        amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
-                        dolore erat amet</p>
+                   
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Docentes capacitados</p>
@@ -155,21 +170,21 @@
                     <div class="row g-3">
                         <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                             <a class="position-relative d-block overflow-hidden" href="{{route('pages.carreras.sistemas')}}">
-                                <img class="img-fluid" src="{{ asset('images/cat-1.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('images/sistemas.webp') }}" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                     style="margin: 1px;">
                                     <h5 class="m-0">Análisis Funcional de Sistemas</h5>
-                                    <small class="text-primary">50 egresados</small>
+                                    <small class="text-primary"></small>
                                 </div>
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                             <a class="position-relative d-block overflow-hidden" href="{{route('pages.carreras.robotica')}}">
-                                <img class="img-fluid" src="{{ asset('images/cat-1.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('images/robotica.webp') }}" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                                     style="margin: 1px;">
                                     <h5 class="m-0">Robótica</h5>
-                                    <small class="text-primary">40 egresados</small>
+                                    <small class="text-primary"></small>
                                 </div>
                             </a>
                         </div>
@@ -177,13 +192,13 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="{{route('pages.carreras.comercializacion')}}">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('images/cat-4.jpg') }}"
+                    <a class="position-relative d-block h-100 overflow-hidden" href="{{route('pages.carreras.gestion-industrial')}}">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('images/gestion-industrial.webp') }}"
                             alt="" style="object-fit: cover;">
                         <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                             style="margin:  1px;">
-                            <h5 class="m-0">Comercialización</h5>
-                            <small class="text-primary">49 egresados</small>
+                            <h5 class="m-0">Gestión Industrial</h5>
+                            <small class="text-primary"></small>
                         </div>
                     </a>
                 </div>

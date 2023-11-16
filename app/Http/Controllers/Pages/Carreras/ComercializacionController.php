@@ -9,6 +9,6 @@ class ComercializacionController extends Controller
 {
     public function index()
     {
-        return view('pages.carreras.comercializacion');
+        return view('pages.carreras.gestion-industrial');
     }
 }
